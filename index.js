@@ -8,7 +8,7 @@ app.listen(port, () => console.log('Endpoint started!'))
 
 
 
-app.get('/randomarray', async (req, res) => {
+app.get('/randomletter', async (req, res) => {
 
 const letters = ["a", "b", "c", "d", "e", "f"]
 const randomletter = letters[Math.floor(Math.random() * letters.length)]; //get a random letter from the letters array
