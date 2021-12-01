@@ -15,7 +15,7 @@ const randomletter = letters[Math.floor(Math.random() * letters.length)]; //get 
  
 let list = [];
 list.push({
-randomletter: randomarray
+randomletter: randomletter
       
 });
 res.send(list)
