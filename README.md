@@ -1,5 +1,5 @@
 # api-template
-Simple template to build an API with express.js
+Simple template to build an API with express
 
 
 NPM Packages:
